@@ -45,7 +45,7 @@ XWrap-Qt is a script made to use Live Wallpapers on LXQt.
         ```
      - In the future you can edit the configuration file to change these values (you can do it with a text editor like nano)
         ```
-        nano /usr/local/bin/XWrap-Qt.conf
+        sudo nano /usr/local/bin/XWrap-Qt.conf
         ```
 ## FAQ
 - Why when I change the interval between 2 small values (like 0,0000001s and 0,0000000001) I can't see any difference in speed?
