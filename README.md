@@ -37,7 +37,7 @@ XWrap-Qt is a script made to use Live Wallpapers on LXQt.
         ```
      - Copy the Script File in a System Folder:
         ```
-        cp XWrap-Qt.py /usr/sbin
+        sudo cp XWrap-Qt.py /usr/sbin
         ```
      - Launch the Script for the first time to select the GIF file and the interval (in seconds) between 2 frames:
         ```
