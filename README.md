@@ -37,15 +37,15 @@ XWrap-Qt is a script made to use Live Wallpapers on LXQt.
         ```
      - Copy the Script File in a System Folder:
         ```
-        sudo cp XWrap-Qt.py /usr/sbin
+        cp XWrap-Qt.py /usr/local/bin
         ```
      - Launch the Script for the first time to select the GIF file and the interval (in seconds) between 2 frames:
         ```
-        python3 /usr/sbin/XWrap-Qt.py
+        python3 /usr/local/bin/XWrap-Qt.py
         ```
      - In the future you can edit the configuration file to change these values (you can do it with a text editor like nano)
         ```
-        nano /usr/sbin/XWrap-Qt.conf
+        nano /usr/local/bin/XWrap-Qt.conf
         ```
 ## FAQ
 - Why when I change the interval between 2 small values (like 0,0000001s and 0,0000000001) I can't see any difference in speed?
