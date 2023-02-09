@@ -48,8 +48,8 @@ XWrap-Qt is a script made to use Live Wallpapers on LXQt.
         nano /usr/sbin/XWrap-Qt.conf
         ```
 ## FAQ
-- Why when I change the interval between 2 small values (like 0,000001s and0,0001) can't see any difference in speed?
-    - There isn't actually a single answer to this question. We just know that it can vary according to the Monitor Refresh Rate, the general power of your System or maybe it could be a PCManFM-Qt Limitation.
+- Why when I change the interval between 2 small values (like 0,0000001s and 0,0000000001) I can't see any difference in speed?
+    - There isn't actually a single answer to this question. We just know that it can vary according to the Monitor Refresh Rate, the general power of your System or, maybe, it could be a PCManFM-Qt Limitation.
 ## Credits & License
- - SpineGTK is made using Python, PyQt5 and some other Python Modules, wraps [py_spec](https://github.com/rctcwyvrn/py_spec) with a GUI and it's released under [GPLv3 License](https://www.gnu.org/licenses/gpl-3.0).
+ - XWrap-Qt is made using Python and Pillow (PIL), is based on [PCManFM-Qt](https://github.com/lxqt/pcmanfm-qt) and it's released under [GPLv2 License](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html).
 
