@@ -39,7 +39,7 @@ XWrap-Qt is a script made to use Live Wallpapers on LXQt.
         ```
         sudo cp XWrap-Qt.py /usr/local/bin
         ```
-     - Launch the Script for the first time to select the GIF file and the interval (in seconds) between 2 frames:
+     - Launch the Script for the first time to select the GIF file and the interval between 2 frames:
         ```
         python3 /usr/local/bin/XWrap-Qt.py
         ```
@@ -47,8 +47,23 @@ XWrap-Qt is a script made to use Live Wallpapers on LXQt.
         ```
         sudo nano /usr/local/bin/XWrap-Qt.conf
         ```
+     - There are several ways to run automatically the script on boot. For example you can add
+        ```
+        python3 /usr/local/bin/XWrap-Qt.py &
+        ```
+        NOTE: Don't forget the & at the end of the line. If you don't insert it you won't be able to use the shell in the current user session.
+        
+        at the end of the .bashrc file inside the home directory. You can do it with:
+        ```
+        sudo nano ~/.bashrc
+        ```
+        NOTE: This command doesn't work with root
+     - When you edit the configuration file you can execute this command to reload the configuration instead of rebooting the whole system:
+        ```
+        exec bash
+        ```
 ## FAQ
-- Why when I change the interval between 2 small values (like 0,0000001s and 0,0000000001) I can't see any difference in speed?
+- Why when I change the interval between 2 small values (like 0.0000001 and 0.0000000001) I can't see any difference in speed?
     - There isn't actually a single answer to this question. We just know that it can vary according to the Monitor Refresh Rate, the general power of your System or, maybe, it could be a PCManFM-Qt Limitation.
 ## Credits & License
  - XWrap-Qt is made using Python and Pillow (PIL), is based on [PCManFM-Qt](https://github.com/lxqt/pcmanfm-qt) and it's released under [GPLv2 License](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html).
