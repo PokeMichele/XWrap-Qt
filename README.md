@@ -58,10 +58,6 @@ XWrap-Qt is a script made to use Live Wallpapers on LXQt.
         sudo nano ~/.bashrc
         ```
         NOTE: This command doesn't work with root
-     - When you edit the configuration file you can execute this command to reload the configuration instead of rebooting the whole system:
-        ```
-        exec bash
-        ```
 ## FAQ
 - Why when I change the interval between 2 small values (like 0.0000001 and 0.0000000001) I can't see any difference in speed?
     - There isn't actually a single answer to this question. We just know that it can vary according to the Monitor Refresh Rate, the general power of your System or, maybe, it could be a PCManFM-Qt Limitation.
